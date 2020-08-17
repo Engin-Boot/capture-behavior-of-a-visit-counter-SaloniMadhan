@@ -10,4 +10,4 @@ Scenario: Alert when seating capacity is full
 
   Given a threshold value for seating capacity
   When current capacity touches the threshold value
-  Then an alert is pushed
+  Then push an alert
