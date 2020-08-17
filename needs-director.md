@@ -3,8 +3,8 @@
 Scenario: Show patient visits during working days and holidays
 
   Given a month of data of patient visits
-  When i click on show patient visits 
-  Then it displays patient visits across working days and holidays
+  When show patient visits is clicked
+  Then patient visits across working days and holidays is displayed
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
