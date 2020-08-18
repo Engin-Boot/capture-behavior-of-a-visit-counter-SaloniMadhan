@@ -3,7 +3,7 @@
 Scenario: Show patient visits during working days and holidays
 
   Given count of patient visits
-  When clicked 
+  When I click on show visits
   Then displays patient visits day-wise
 
 Scenario: Compute parking slots to reserve for visiting specialists
