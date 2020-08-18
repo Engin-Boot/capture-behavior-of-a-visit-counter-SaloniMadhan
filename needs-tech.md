@@ -2,7 +2,7 @@
 
 Scenario: Recover across restarts of the server that runs the visit-counter
 
-  Given to run visit-counter
+  Given visit-counter runner
   When there is server restart
   Then it recovers visit-count 
 
